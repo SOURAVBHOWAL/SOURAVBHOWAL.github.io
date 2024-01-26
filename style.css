@@ -1,0 +1,56 @@
+body{
+    background-color: pink;
+    height:100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    width: 40vh;
+    display: flex;
+    justify-self: center;
+}
+#box{
+    align-self: center;
+    background-color: white;
+    
+    width: 70%;
+    padding: 5% 5% 5% 5%;
+    
+}
+#input{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+p{
+    font-size: 1.3rem;
+}
+select{
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+img{
+    max-width: 2.25rem;
+}
+button{
+    width:60%;
+    height: 2rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    position: relative;
+    border-radius: 2rem;
+    background-color: purple;
+    color: white;
+    margin-left: 20%;
+}
+input{
+    border:1px solid grey;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+}
